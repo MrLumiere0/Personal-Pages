@@ -39,6 +39,10 @@ nav ul{
 
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
 
 
 .Main {
@@ -186,3 +190,77 @@ font-size: 3rem;
     border-radius: 10px;
 }
 
+.expPage{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    min-width: 797px;
+
+}
+
+.ExpMain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.expMainMe{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.expMainMe h2{
+    font-size: 4rem;
+}
+
+.expMainDetils {
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+justify-content: start;
+overflow: scroll;
+height: 800px;
+
+}
+
+.portMain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-wrap: nowrap;
+
+}
+
+.portMainMe{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.portMain h2 {
+    font-size: 4rem;
+
+}
+
+.portMainDetails {
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+justify-content: start;
+overflow: scroll;
+height: 800px;
+}
